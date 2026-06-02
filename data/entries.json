@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cielo-bajo-001",
+    "title": "cielo bajo",
+    "date": "archivo / 001",
+    "photo": "",
+    "palette": ["#17213a", "#824057", "#d9a36f"],
+    "moods": ["cielo", "distancia", "nostalgia"],
+    "prose": "La foto no explica nada. Deja una presión suave sobre el pecho, como si algo hermoso estuviera pasando lejos y tarde.",
+    "recommendations": {
+      "cine": { "title": "Aftersun", "by": "Charlotte Wells" },
+      "literatura": { "title": "La cámara lúcida", "by": "Roland Barthes" },
+      "música": { "title": "On the Nature of Daylight", "by": "Max Richter" },
+      "arte": { "title": "Nocturnes", "by": "James McNeill Whistler" }
+    }
+  },
+  {
+    "id": "flor-herida-001",
+    "title": "flor herida",
+    "date": "archivo / 002",
+    "photo": "",
+    "palette": ["#26151b", "#8d2f35", "#e3c2b0"],
+    "moods": ["flor", "fuego", "cuerpo"],
+    "prose": "Hay belleza que no calma. Más bien deja una marca, un color insistente, una forma de decir sin pedir permiso.",
+    "recommendations": {
+      "cine": { "title": "Portrait of a Lady on Fire", "by": "Céline Sciamma" },
+      "literatura": { "title": "Agua viva", "by": "Clarice Lispector" },
+      "música": { "title": "Lilies", "by": "Ethel Cain" },
+      "arte": { "title": "Red Canna", "by": "Georgia O’Keeffe" }
+    }
+  },
+  {
+    "id": "noche-001",
+    "title": "noche sin testigos",
+    "date": "archivo / 003",
+    "photo": "",
+    "palette": ["#0c0d14", "#2e2449", "#b05b3f"],
+    "moods": ["noche", "silencio", "distancia"],
+    "prose": "La noche no vuelve más dramática la imagen. La vuelve honesta. Lo que queda iluminado es justo lo que no se pudo apagar.",
+    "recommendations": {
+      "cine": { "title": "In the Mood for Love", "by": "Wong Kar-wai" },
+      "literatura": { "title": "Los detectives salvajes", "by": "Roberto Bolaño" },
+      "música": { "title": "Fourth of July", "by": "Sufjan Stevens" },
+      "arte": { "title": "Untitled Film Stills", "by": "Cindy Sherman" }
+    }
+  }
+]

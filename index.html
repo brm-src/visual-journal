@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>visual journal — privado</title>
+  <meta name="description" content="Foto, prosa y recomendaciones personales por mood.">
+  <link rel="stylesheet" href="./styles.css?v=0001">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Visual journal home">visual journal</a>
+    <nav aria-label="Secciones">
+      <a href="#entries">archivo</a>
+      <a href="#about">tesis</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro" id="about">
+      <p class="kicker">proyecto privado / no moodwatch</p>
+      <h1>foto, prosa, arte que me hacen ser quien soy.</h1>
+      <p class="intro-copy">Cada entrada parte desde una foto propia. Después viene el texto, y al lado lo que esa imagen llama: literatura, cine, música, pintura, memoria.</p>
+    </section>
+
+    <section class="toolbar" aria-label="Filtros de mood">
+      <button type="button" class="chip is-active" data-filter="all">todo</button>
+      <button type="button" class="chip" data-filter="cielo">cielo</button>
+      <button type="button" class="chip" data-filter="flor">flor</button>
+      <button type="button" class="chip" data-filter="noche">noche</button>
+      <button type="button" class="chip" data-filter="distancia">distancia</button>
+      <button type="button" class="chip" data-filter="fuego">fuego</button>
+    </section>
+
+    <section class="entries" id="entries" aria-label="Entradas del visual journal"></section>
+  </main>
+
+  <dialog class="entry-dialog" id="entry-dialog" aria-label="Entrada seleccionada">
+    <button class="close" type="button" data-close aria-label="Cerrar">×</button>
+    <article id="entry-detail"></article>
+  </dialog>
+
+  <footer class="footer">
+    <span>archivo privado</span>
+    <span>fotos propias · texto propio · recomendaciones por mood</span>
+  </footer>
+
+  <script src="./app.js?v=0001" type="module"></script>
+</body>
+</html>
