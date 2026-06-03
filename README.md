@@ -1,6 +1,6 @@
 # visual journal
 
-Proyecto privado de Cris. No es Moodwatch y no está publicado.
+Proyecto separado de Cris. No es Moodwatch y está publicado como sitio estático no indexado.
 
 Tesis: foto propia → prosa → recomendaciones de literatura, cine, música y arte según el mood de esa imagen.
 
